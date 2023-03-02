@@ -16,7 +16,7 @@ const observer = new IntersectionObserver((entries)=>{
         reset: true,
         distance: '60px',
         duration: 2500,
-        delay:400
+        delay:250
     });
 
     ScrollReveal().reveal('.hero',{ delay: 500, origin: 'left'});

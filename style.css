@@ -1,13 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,500;1,700&display=swap');
 
 body{
-    background-color: #131316;
-    color: #ffffff;
+    background-color: #1b1b20;
+    color: #fffad9;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     padding: 0;
     margin: 0;
 }
+.right {
 
+    top: 0;
+    background-color: #ffffff00;
+    margin-right: 1rem;
+    font-size: 1.5rem;
+    text-align: center;
+    justify-items:flex-start;
+  }
+.highlight{
+    color: crimson;
+    font-size: 1.75rem;
+}
+#courses, #os, #website{
+    color: rgb(35, 104, 232);
+}
 .hero{
     font-size: 2rem;
 }
@@ -43,7 +58,7 @@ section{
 
 .courses{
     font-size: 4rem;
-    color: rgb(126, 126, 125);
+    color: rgb(35, 104, 232);
     text-align: center;
     padding-top: 3rem;
     padding-bottom: 1rem;
@@ -61,7 +76,7 @@ section{
 }
 
 .course-num{
-    color: yellow;
+    color: #4af3c6;
     padding-left: 2rem;
     font-size: 3.5rem;
 }
