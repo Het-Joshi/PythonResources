@@ -1,6 +1,6 @@
 # PythonResources
 
-<a href="">Click here</a> to view the website
+<a href="https://het-joshi.github.io/PythonResources/">Click here</a> to view the website
 
 Welcome to our Python learning website for beginners!
 
