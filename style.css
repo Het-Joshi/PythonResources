@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,600;0,800;1,500;1,700&display=swap');
+
+body{
+    background-color: #131316;
+    color: #ffffff;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.hero{
+    font-size: 2rem;
+}
+
+.section-1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 300%;
+    /* color: rgb(151, 57, 239); */
+    color: #4af3c6;
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 2vh;
+}
+
+.hidden{
+    opacity: 0;
+
+    fill: blur(5px);
+    transform: translate(-100%);
+    
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+    filter: blur(0);
+    transform: translateX(0);
+}
+
+.courses{
+    font-size: 4rem;
+    color: rgb(126, 126, 125);
+    text-align: center;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+}
+
+.why{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    font-size: 1rem;
+}
+
+.course{
+    font-size: 2.3rem;
+}
+
+.course-num{
+    color: yellow;
+    padding-left: 2rem;
+    font-size: 3.5rem;
+}
+
+.p-course{
+    padding: 2rem 10rem;
+    font-size: 1.5rem;
+}
+
+
+a {
+    display: inline-block;
+    color: #30c69e;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+a:hover {
+    color: #4bf488;
+  }
+
+button {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 10px 13px;
+    background-color: #30c69e;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #4bf488;
+  }
+
+.end{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding: 2rem 5rem 1rem;
+  }
+
+  footer{
+    text-align: center;
+    font-size: 1.5rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #3d3d3d;
+    padding: 0.01%;
+    color: #65c7ad;
+  }
+
+  @media only screen and (max-width: 767px) {
+   
+    .p-course{
+        padding: 2rem 2rem;
+        font-size: 1.5rem;
+    }
+
+    footer{
+        font-size: 1rem;
+      }
+
+      .hero{
+        font-size: 2rem;
+        padding-left: 1rem;
+    }
+    
+    .section-1{
+        font-size: 200%;
+    }
+    
+    section{
+        min-height: 1vh;
+    }
+    
+    .why{
+        display: grid;
+        place-items: center;
+        align-content: center;
+        font-size: 0.8rem;
+        padding: 0.3rem 1.3rem;
+    }
+    
+    .course{
+        font-size: 1.3rem;
+    }
+    
+    .course-num{
+        padding-left: 1rem;
+        font-size: 2.5rem;
+    }
+
+    
+.end{
+    font-size: 1.3rem;
+    padding: 1rem 1rem 1rem;
+  }
+
+  }
